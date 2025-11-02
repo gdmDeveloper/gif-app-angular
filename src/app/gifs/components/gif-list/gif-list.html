@@ -1,0 +1,10 @@
+<div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 py-5">
+  <!-- gif-list-item -->
+
+  @for (item of gifList(); track $index) {
+  <gif-list-item [url]="item.url" />
+  }
+
+
+
+</div>
